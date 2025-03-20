@@ -1,0 +1,2 @@
+Correlation between weight and capture rate: -0.32460924173116357
+Heavier Pokémon tend to have lower capture rates.

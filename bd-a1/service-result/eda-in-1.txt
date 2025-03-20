@@ -1,0 +1,6 @@
+Average base stats:
+is_legendary
+0    410.481532
+1    615.257143
+Name: base_total, dtype: float64
+Legendary Pokémon have significantly higher base stats.

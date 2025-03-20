@@ -1,0 +1,7 @@
+Most common effectiveness categories:
+Normal            8300.0
+Resistant         3060.0
+Effective         2386.0
+Not Effective      492.0
+Very Effective     180.0
+dtype: float64

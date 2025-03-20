@@ -1,0 +1,13 @@
+#!/bin/bash
+CONTAINER_NAME="affectionate_hamilton"
+CONTAINER_PATH="/home/doc-bd-a1/" 
+LOCAL_PATH="bd-a1/service-result/"
+mkdir -p "$LOCAL_PATH"
+docker cp "$CONTAINER_NAME:$CONTAINER_PATH/res_dpre.csv" "$LOCAL_PATH"
+docker cp "$CONTAINER_NAME:$CONTAINER_PATH/eda-in-1.txt" "$LOCAL_PATH"
+docker cp "$CONTAINER_NAME:$CONTAINER_PATH/eda-in-2.txt" "$LOCAL_PATH"
+docker cp "$CONTAINER_NAME:$CONTAINER_PATH/eda-in-3.txt" "$LOCAL_PATH"
+docker cp "$CONTAINER_NAME:$CONTAINER_PATH/vis.png" "$LOCAL_PATH"
+docker cp "$CONTAINER_NAME:$CONTAINER_PATH/knn_results.txt" "$LOCAL_PATH"
+docker stop "$CONTAINER_NAME"
+echo "All output files copied to $LOCAL_PATH and container has been stopped."
