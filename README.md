@@ -8,9 +8,13 @@ This project is a Dockerized data processing pipeline that performs data loading
 docker pull eepy0/bd-a1-image-v2 
 
 dockerfile & dataset & vis.py : Hussein allam - 221000800
+/n
 dpre.py & model.py & eda.py & github : Mohammed elbayoumi - 221000663
+/n
 final.sh : Fares hany - 221000846
+/n
 load.py & Integration of files : Ahmed Fouad - 2210001785
+/n
 mohammed hesham - 22100----
 
 
