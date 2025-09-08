@@ -1,4 +1,4 @@
-# **Big Data Assignment 1**  
+# **Big Data project**  
 
  **A Dockerized Data Processing Pipeline**  
 
